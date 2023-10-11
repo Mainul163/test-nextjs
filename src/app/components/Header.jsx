@@ -13,6 +13,9 @@ const Header = () => {
         <li>
           <Link href="/bio/details">Bio</Link>
         </li>
+        <li>
+          <Link href="/info">info</Link>
+        </li>
       </ul>
     </div>
   );
