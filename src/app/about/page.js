@@ -4,6 +4,7 @@ import styles from "../styles/header.module.css";
 import FirstComponents from "../components/firstComponents.jsx";
 import Image from "next/image";
 import profilePic from "../../../public/rakib.jpg";
+
 const page = () => {
   const [count, setCount] = useState(0);
 
@@ -14,6 +15,7 @@ const page = () => {
   const handleDecrease = () => {
     setCount(count - 1);
   };
+
   return (
     <div>
       <h1 className={styles.test}>about page</h1>
