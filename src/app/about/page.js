@@ -18,6 +18,7 @@ const page = () => {
 
   return (
     <div>
+      <title>page</title>
       <h1 className={styles.test}>about page</h1>
       <FirstComponents />
       <Image
