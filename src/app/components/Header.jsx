@@ -16,6 +16,18 @@ const Header = () => {
         <li>
           <Link href="/info">info</Link>
         </li>
+        {/* <li>
+          <Link href="/dynamic/1">Dynamic</Link>
+        </li> */}
+        <li>
+          <Link
+            href={{
+              pathname: "/dynamic/1",
+            }}
+          >
+            Dynamic
+          </Link>
+        </li>
       </ul>
     </div>
   );
